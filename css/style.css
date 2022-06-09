@@ -1,0 +1,48 @@
+h2{
+    color: #026424;
+    font-weight: bold;
+    font-size: 32px;
+}
+#left{
+    background: url(../images/logo-background.png);
+    background-position: center;
+    background-size: cover;
+}
+#right{
+    max-width: 700px;
+    margin: auto;
+}
+.form-control {
+    border: none;
+    border-bottom: 1px solid #000643;
+    padding-left: 0;
+    outline: none;
+}
+.form-control:focus {
+    color: #000643;
+    box-shadow: none;
+}
+
+.form-group ::-webkit-input-placeholder {
+    /* Edge */
+    color: #000643;
+}
+
+.form-group :-ms-input-placeholder {
+    /* Internet Explorer */
+    color: #000643;
+}
+
+.form-group ::placeholder {
+    color: #000643;
+}
+form button.btn{
+    background: url(../images/button-background.png);
+    background-position: center;
+    background-size: cover;
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff;
+    background-repeat: no-repeat;
+    box-shadow: 0px 10px 25px 7px #a9e7ff;
+}
